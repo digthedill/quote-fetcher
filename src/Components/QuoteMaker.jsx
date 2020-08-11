@@ -44,7 +44,7 @@ class QuoteMaker extends Component {
   render() {
     const twitter = <FontAwesomeIcon icon={["fab", "twitter"]} size="xs" />;
     return (
-      <div className="quoteBox container clearfix" id="quote-box">
+      <div className="quoteBox container" id="quote-box">
         <p id="text">
           <span className="h1">" </span>
           {this.state.isLoading ? "... loading" : this.state.currentQuote.text}

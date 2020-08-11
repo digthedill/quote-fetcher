@@ -18,6 +18,9 @@
 .myButton {
   text-align: right;
 }
+#quote-box {
+  text-align: center;
+}
 
 body {
   background: rgb(2, 0, 36);
